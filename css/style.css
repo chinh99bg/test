@@ -1,0 +1,11 @@
+    header .container {
+        padding: 0;
+    }
+    
+    main .right {
+        width: 50%;
+    }
+    
+    main .left {
+        width: 50%;
+    }
