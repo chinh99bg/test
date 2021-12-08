@@ -1,11 +1,21 @@
-    header .container {
+    header .container,
+    main .container {
         padding: 0;
+        background-color: white;
+        padding: 2rem 2rem 2rem 2rem;
+        border-radius: 1rem;
     }
     
-    main .right {
-        width: 50%;
+    header nav {
+        background-color: chartreuse;
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        list-style: none;
     }
     
-    main .left {
-        width: 50%;
+    body {
+        background-color: greenyellow;
+        justify-content: center;
+        align-items: center;
     }
